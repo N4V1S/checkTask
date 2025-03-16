@@ -2,7 +2,7 @@
 #include "Solution.h"
 
 int main() {
-    std::string filePath = "graph.txt";
+    std::string filePath = "test1.in";
     std::ifstream file(filePath);
 
     if (!file.is_open()) {

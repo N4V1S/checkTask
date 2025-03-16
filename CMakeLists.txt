@@ -11,3 +11,5 @@ add_executable(checkTask
         GraphPacket/Graph.cpp
         Solution/Solution.cpp
 )
+
+add_subdirectory(tests)

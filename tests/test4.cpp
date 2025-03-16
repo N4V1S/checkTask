@@ -2,13 +2,8 @@
 #include "Solution.h"
 
 int main() {
-    std::string filePath = "graph.txt";
+    std::string filePath = "test4.in";
     std::ifstream file(filePath);
-
-    if (!file.is_open()) {
-        std::cerr << "Can't open the file" << std::endl;
-        return 1;
-    }
 
     Graph graph;
     graph.readGraph(file);
